@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import './App.css'
 
 
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-    <h1>REACT HOOKS</h1>
+    <h1 class="text-black bg-green-400 text-5xl font-bold underline">REACT HOOKS</h1>
     <h2>Counter value : {counter} </h2>
     <button
     onClick={addValue}
